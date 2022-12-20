@@ -26,9 +26,13 @@ header{
     text-align: center;
 }
 
+nav li  {
+    display: inline;
+}
+
 #menu
 {
-    max-width: 415px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -39,6 +43,7 @@ header{
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
     padding: 10px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 #menu a:hover
@@ -59,50 +64,50 @@ main{
     min-height: auto;
 }
 
-main div > button{
-    font-family: 'orbitron';
-    border-width: 0;
-    border-radius: 10px;
-    padding: 4px;
+.paragrafo{
     color: #1C6C80;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
+    margin: 30px;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    display: block; 
+    letter-spacing: 1.7px;
 }
 
-main > picture {
+main > p > picture {
     max-width: 400px;
     max-height: 400px;
-    margin: auto;
-    display: block;
+    margin: 0 20px 20px 20px;
+    float: left;  
 }
 
-main > picture > img{
+main > p > picture > img{
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 3px 3px 3px 2px rgb(0, 0, 0);
     border-radius: 20px;
     width: 100%;
 }
 
-.paragrafo{
-    color: #1C6C80;
-    margin: 40px;
-    text-align: justify;
-    height: auto;
-    width: auto;
-    font-size: 16px;
+.caixa{
+    position: relative;
+    max-width: 940px;
+    margin: auto;
 }
 
 footer {
-    position:absolute;
+    position: absolute;
     width: 100%;
+    bottom: 10px;
     height: auto;    
     text-align: center;
-    font-size: 14px;
-    color: #38D5FC;
-    margin-top: 30px;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-size: 15px;
+    color: #1C6C80;
+    margin: auto;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    letter-spacing: 1px;
 }
+
+/* ===================   PAGINA NUMERO 02 HTML ==================================================== */
 
 h1{
     color: #1C6C80;
@@ -121,15 +126,15 @@ strong{
 .sobre{
     display: block;
     margin: auto;
-    font-size: 12px;
+    font-size: 18px;
     color:white;
     height:auto;
-    width: 800px;
+    max-width: 800px;
     text-align: justify;
     padding: 10px;
     border: 1px solid #1C6C80;
     border-radius: 20px;
-    font-size: 18px;
+    letter-spacing: .2rem;
 }
 
 
