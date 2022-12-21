@@ -1,0 +1,11 @@
+main > #caixacontato {
+    text-align: center;
+    color: rgb(90, 90, 90);
+    max-width: 940px;
+    height: auto;
+}
+
+.redes{
+    text-align: center;
+    color: rgb(90, 90, 90);
+}
